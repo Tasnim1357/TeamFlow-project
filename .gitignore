@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Django stuff
+db.sqlite3
+*.log
+media/
+*.pot
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+
+# Secret environment file
+.env
+
+# Docker
+*.env
+docker-compose.override.yml
