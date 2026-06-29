@@ -1,9 +1,11 @@
 from django.contrib import admin
 
 # Register your models here.
-from django.contrib import admin
+# from rest_framework.authtoken.admin import TokenAdmin
+# from rest_framework.authtoken.models import Token
 from django.contrib.auth.admin import UserAdmin
 from .models import NewUser
+
 # Register your models here.
 
 class UserAdminConfig(UserAdmin):
@@ -31,3 +33,5 @@ class UserAdminConfig(UserAdmin):
     
     
 admin.site.register(NewUser, UserAdminConfig)
+
+

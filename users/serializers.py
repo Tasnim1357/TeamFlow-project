@@ -18,3 +18,6 @@ class RegisterSerializer(serializers.ModelSerializer):
             user_name=validated_data["user_name"],
             password=validated_data["password"]
         )
+
+
+
